@@ -42,8 +42,8 @@ last_session_id:
 (none yet)
 
 ## 5. Score history
-| Session | Task type | Overall | Gram | Vocab | Flu | Clar | Nat | Comm | Confidence |
-|---|---|---|---|---|---|---|---|---|---|
+| Session | Task type | Overall | Gram | Vocab | Flu | Clar | Nat | Comm | Deliv | Confidence |
+|---|---|---|---|---|---|---|---|---|---|---|
 
 ## 6. Do not store
 - (none)

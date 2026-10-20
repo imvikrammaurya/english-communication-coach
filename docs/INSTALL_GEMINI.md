@@ -50,7 +50,7 @@ Your memory lives in your own Google Drive, and the Gem reads only the two files
 5. Save the two files (Option A or B above).
 
 ## Voice practice
-Use Gemini Live or the microphone inside the Gem chat if your app version supports it there. The coach works from the transcript, so it ignores punctuation and doesn't grade pronunciation from transcripts. For the strictest grammar and tone correction, text chat gives the most reliable results.
+Use Gemini Live or the microphone inside the Gem chat if your app version supports it there. Grammar, word choice and tone in your speech are corrected. If the coach only receives a transcript of your speech, it won't judge pronunciation or how your voice sounds, and it will tell you so rather than guess. If you want feedback on pronunciation and voice tone, use ChatGPT voice mode (see [INSTALL_CHATGPT.md](INSTALL_CHATGPT.md)). For the strictest grammar and tone correction, text chat gives the most reliable results.
 
 ## Troubleshooting
 | Problem | Fix |

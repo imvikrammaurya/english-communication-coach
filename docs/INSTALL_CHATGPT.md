@@ -44,9 +44,18 @@ From then on, every new chat in the project reads your memory automatically. You
 > **Quicker option:** skip uploading to project Files and attach the two files to each new chat with the 📎 button instead. Either works; project Files is less effort.
 
 ## Voice practice
-Open a chat in the project and tap the **voice** icon. Notes:
-- The coach mostly works from the text transcript of what you said. It ignores punctuation and capitalisation and does **not** grade pronunciation from transcripts.
-- If voice mode seems to ignore the coach rules, say "Follow the English Coach rules" or use text chat for strict practice. Voice behaviour varies by app version.
+Open a chat in the project and tap the **voice** icon. In ChatGPT voice mode the coach hears your actual voice, so besides grammar, words and tone it can coach your **delivery**:
+- pronunciation of specific words and word stress;
+- pace, pauses and volume;
+- how your voice sounds (calm, angry, rushed, unsure) and whether that fits the situation, e.g. "your words were polite, but you sounded impatient; say it again more calmly."
+
+Then it asks you to say it again, the same as grammar corrections. Delivery scores appear in your report as **Delivery**.
+
+Notes:
+- Your accent is never treated as a mistake; only clarity and suitability are.
+- Audio feedback is a helpful estimate, not a professional pronunciation test.
+- If voice mode seems to ignore the coach rules, say "Follow the English Coach rules". If it still doesn't, use text chat for strict grammar practice. Voice behaviour varies by app version.
+- Type `end session` in text after a voice chat if the report doesn't appear in voice.
 
 ## Optional: Google Drive
 On ChatGPT, using project Files is simpler and more reliable than Drive. If your plan offers a Google Drive app or connector, you can keep backups of the two files in a Drive folder named `English-Coach-Memory`. ChatGPT still can't **write** to that folder, so you replace the files there yourself.

@@ -14,6 +14,8 @@ It talks with you about real situations (work, interviews, presentations, daily 
 - **Honest scores.** Six skill areas scored 0–10, marked *provisional* when there isn't enough evidence. No inflated marks, no invented mistakes.
 - **Remembers you.** Your goals, recurring mistakes and topics are kept in two small files that **you own**.
 - **Explains in your language** if you want (`explain in Hindi`), with examples kept in English.
+- **Coaching notes after every session.** Written mini-lessons on your top weak points: the rule, when to use it and when not to, your own mistake corrected, examples from your conversation, common traps, and a short practice with answers. Ask for one any time with `notes <topic>`.
+- **Voice coaching on ChatGPT.** In voice mode it can also tell you how you *sounded*: too loud, angry, rushed or unsure for the situation, plus word stress and pronunciation, and then has you say it again.
 - **Free video lessons** matched to your weak points (only verified links, never made up).
 
 ---
@@ -82,7 +84,7 @@ english-communication-coach/
 ## ⚠️ Honest limitations
 
 - **Not an exam.** Scores are coaching estimates, not IELTS/TOEFL/CEFR results.
-- **No pronunciation grading from text.** In voice mode the coach works from the transcript, so it doesn't judge accent, pronunciation or pace.
+- **Pronunciation and voice-tone feedback needs real audio.** In ChatGPT voice mode the coach can comment on pronunciation, stress, pace and how your voice sounds (calm, angry, unsure) for the situation. This feedback is approximate, not a lab-grade pronunciation test. In typed chat, or when only a transcript is available (often the case in Gemini), it doesn't judge these. Your accent is never treated as a mistake; only clarity and suitability are.
 - **AI can make mistakes.** Rarely, it may mark something as wrong that is acceptable. Ask "Are you sure? Isn't that also correct?" and it should reconsider honestly.
 - **Platform features change.** ChatGPT and Gemini update their menus and plans often. If a step in the guides looks different, look for the closest option, or [open an issue](../../issues).
 - **Usage limits.** Long sessions use your plan's message limits. Shorter, regular sessions work best.

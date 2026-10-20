@@ -10,7 +10,7 @@ open the coach  →  type "start"  →  talk / write  →  fix mistakes until co
 2. **Type `start`.** The coach reads your memory, reminds you of last time's goal, and begins.
 3. **Practise.** Talk about anything: your job, an interview, a presentation, your weekend. The coach asks one question at a time and keeps the conversation going.
 4. **Fix your mistakes.** When you make an important mistake, the coach stops, shows exactly what was wrong, explains why, and asks you to **say it again**. It keeps going until you get it right. Type `skip` if you want to move on (it's recorded as *skipped*, not *learned*).
-5. **Type `end session`.** You get a report with scores, your top mistakes, priorities and an exercise, plus your two memory files.
+5. **Type `end session`.** You get a report with scores, your top mistakes, priorities and an exercise; **coaching notes** (mini-lessons you can study) for your top weak points; and your two memory files.
 6. **Save the two files.** This is the step that gives the coach memory. See below.
 
 ## What gets corrected
@@ -21,8 +21,9 @@ open the coach  →  type "start"  →  talk / write  →  fix mistakes until co
 | Words | wrong word, unnatural word combinations, repetition, fillers |
 | Speech & phrasing | complete sentences, natural phrasing, clarity, structure |
 | Tone | too direct, too casual, too formal for the person you're talking to |
+| Voice & delivery *(ChatGPT voice mode)* | pronunciation of words, word stress, pace, pauses, volume, and whether your voice sounds calm, angry, rushed or unsure for the situation |
 
-**Not graded from text:** pronunciation, accent and speaking speed. The coach is honest that it can't judge these from a transcript.
+**About voice:** delivery feedback only happens when the coach actually hears your audio, as in ChatGPT voice mode. In typed chat, or when only a transcript is available (often the case on Gemini), it won't judge pronunciation or voice tone, because it can't. Your **accent is never a mistake**. The coach only corrects what makes you unclear or sounds wrong for the situation. Audio feedback is a helpful estimate, not a professional pronunciation test.
 
 ## Strictness: choose how hard the coach pushes
 
@@ -46,8 +47,9 @@ In every mode, the mistakes that do get retried are retried **until you get them
 | `new topic` | Get topic ideas, or name your own |
 | `explain in Hindi` *(or any language)* | Explanations in your language, examples in English |
 | `report` | Quick report so far |
-| `full report` | Detailed report with study plan and free videos |
-| `end session` | Final report + your 2 memory files |
+| `notes <topic>` | A written mini-lesson on any topic, e.g. `notes present perfect`, `notes polite requests` |
+| `full report` | Detailed report with coaching notes for every weak point, study plan and free videos |
+| `end session` | Final report + coaching notes for your top 2–3 weak points + your 2 memory files |
 | `save` | Get your 2 memory files now, keep practising |
 | `show memory` | See what the coach remembers about you |
 | `forget <something>` | Remove a detail from memory |
@@ -80,6 +82,8 @@ Save them using the method you chose during install:
 - **Do the exercise** at the end of each report before your next session.
 - **Use `mode strict`** when you have time, and `mode fluency` when you just want to talk.
 - **Use `full report` once a week** to get a study plan and free video lessons.
+- **Read your coaching notes** and do the 3 practice items before your next session.
+- **Use voice mode on ChatGPT** for real situations (interviews, calls) to get feedback on *how* you sound, not just *what* you say.
 
 ## Example session start
 

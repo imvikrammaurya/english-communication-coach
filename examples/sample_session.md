@@ -54,7 +54,7 @@ Mode: practice, balanced · Evidence: 14 learner sentences, typed text · Confid
 
 ### Scores
 Overall: 6.5/10
-Grammar 6 · Vocabulary 6.5 · Fluency 7 · Clarity 7 · Naturalness 6 · Communication/Tone 6.5
+Grammar 6 · Vocabulary 6.5 · Fluency 7 · Clarity 7 · Naturalness 6 · Communication/Tone 6.5 · Delivery n/a (typed text)
 
 ### Top mistakes
 1. "I am working … since 2022" → "I have been working … since 2022" — Tense — corrected with help
@@ -74,6 +74,41 @@ Write 8 sentences about your career using "have been + -ing + since/for". Succes
 
 ### Next session
 Objective: Answer 3 interview questions using present perfect correctly at least 5 times.
+
+---
+
+## 📘 Coaching note — Present perfect with since/for
+**What it is:** a way to talk about something that started in the past and is still true now.
+
+**Structure:** I/You/We/They **have been** + verb-ing + since/for + time · He/She **has been** + verb-ing…
+- **since** + starting point: since 2022, since March, since I joined
+- **for** + length of time: for three years, for six months
+
+**When to use it:** your current job, how long you've lived somewhere, ongoing habits. Very common in interviews.
+**When NOT to use it:** with finished times ("yesterday", "in 2021", "last year"). Use the past simple: "I joined in 2022."
+
+**Your mistake today:**
+❌ "I am working as a senior analyst since 2022."
+✅ "I have been working as a senior analyst since 2022."
+Why: "since 2022" connects the past to now, and the present continuous can't do that.
+
+**Examples:**
+1. I have been managing a team of four for two years.
+2. We have been using this reporting tool since last March.
+3. She has been learning English since she moved to Pune.
+4. How long have you been working here?
+5. I haven't been sleeping well for the past week.
+
+**Common traps:** "since three years" ❌ → "for three years" ✅ · "I have been work" ❌ → "I have been work**ing**" ✅ · "I am here since 2022" ❌ → "I have been here since 2022" ✅
+
+**Practice:** fill in the gap.
+1. I ______ (study) English ______ six months.
+2. They ______ (live) in Delhi ______ 2019.
+3. How long ______ you ______ (wait)?
+
+**Answers:** 1. have been studying, for · 2. have been living, since · 3. have, been waiting
+
+*(Coaching notes for priorities 2 and 3, leadership tone and irregular plurals, follow in the same format.)*
 
 *(Then the coach prints the full `learner_memory.md` and `session_log.md` in code blocks.)*
 

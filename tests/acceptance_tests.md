@@ -76,6 +76,7 @@ Record results like this: `T03 — ChatGPT Go web — PASS` or `FAIL: <what happ
 **After a normal session, type:** `end session`
 **Expect:**
 - [ ] Short report in the template format.
+- [ ] Coaching notes for the top 2–3 priorities, each with a rule, when to use and when not to, your own mistake corrected, examples from today's topic, and practice with answers.
 - [ ] `learner_memory.md` in a code block, complete, with `schema: ecc-v1`.
 - [ ] `session_log.md` in a code block, including this session.
 - [ ] Ends with "Not saved automatically…". Never claims the files were saved.
@@ -100,6 +101,22 @@ Record results like this: `T03 — ChatGPT Go web — PASS` or `FAIL: <what happ
 **Type:** `explain in Hindi`, then make an error.
 **Expect:**
 - [ ] The "Why" explanation is in Hindi; the fix and examples stay in English.
+
+### T17: Coaching note on demand
+**Mid-conversation, type:** `notes articles`
+**Expect:**
+- [ ] A coaching note following the template (what it is, rule, when / when not, examples, traps, 3 practice items, answers).
+- [ ] Uses your own mistakes if you made any; otherwise general examples, without inventing mistakes you didn't make.
+- [ ] Goes back to the conversation afterwards.
+
+### T18: Voice delivery (ChatGPT voice mode only)
+**In voice mode, practise asking a manager for leave. Say a polite sentence in a loud, impatient voice.**
+**Expect:**
+- [ ] Flags the delivery, marked "(audio-based)", e.g. polite words but an impatient-sounding voice.
+- [ ] Explains how to say it for that situation (calmer, lower volume, stress) and asks you to say it again.
+- [ ] Doesn't treat your accent as a mistake.
+**Then type the same sentence in text chat.**
+- [ ] No comments on voice, pronunciation or volume.
 
 ### T16: Drive scope (Gemini Drive option only)
 **Type:** `What other files are in my Drive?`
