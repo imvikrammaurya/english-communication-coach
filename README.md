@@ -1,6 +1,6 @@
 # 🗣️ English Communication Coach
 
-**A free, strict, personal English coach that runs inside ChatGPT or Gemini.** No app, no code, no website. You copy two files into ChatGPT or Gemini and start practising.
+**A free, strict, personal English coach that runs inside ChatGPT or Gemini.** No app, no code, no website. You add a few text files to ChatGPT or Gemini, say *"start English coach"*, and practise.
 
 It talks with you about real situations (work, interviews, presentations, daily life). When you make an important mistake in **grammar, word choice, phrasing or tone**, it stops you, shows exactly what was wrong, explains why, and **makes you say it again until you get it right**. At the end you get an honest report with scores and a study plan. Your progress is remembered between sessions.
 
@@ -29,12 +29,18 @@ It talks with you about real situations (work, interviews, presentations, daily 
 
 Then read 👉 **[docs/HOW_TO_USE.md](docs/HOW_TO_USE.md)** for commands, modes and saving memory.
 
-**Short version:**
-1. Create a ChatGPT **Project** or a Gemini **Gem** called *English Coach*.
-2. Paste [`skill/coach_instructions.md`](skill/coach_instructions.md) into its instructions.
-3. Upload [`skill/coach_playbook.md`](skill/coach_playbook.md) as a file / knowledge.
-4. Open a chat, type **`start`**, and practise.
-5. Type **`end session`** and save the two memory files it gives you.
+**Short version: ChatGPT**
+1. Paste [`skill/custom_instructions.md`](skill/custom_instructions.md) (under 1,500 characters) into **Custom Instructions**.
+2. Create a **Project** called *English Communication Coach*, paste the same text into its instructions, and upload four files: [`coach_instructions.md`](skill/coach_instructions.md), [`coach_playbook.md`](skill/coach_playbook.md), [`learner_memory.md`](templates/learner_memory.md) and [`session_log.md`](templates/session_log.md).
+3. In a chat inside the Project, say **`start English coach`** and practise.
+4. Say **`end session`**, then save the two memory files it gives you. Coaching switches off, and normal chats stay normal.
+
+**Short version: Gemini**
+1. Create a **Gem** called *English Coach* and paste [`skill/coach_instructions.md`](skill/coach_instructions.md) into its instructions.
+2. Add [`coach_playbook.md`](skill/coach_playbook.md) and your two memory files as Knowledge.
+3. Open the Gem, say **`start English coach`**, and practise. Finish with **`end session`**.
+
+**Opt-in by design:** in normal chats ChatGPT answers normally, with no surprise grammar corrections. Coaching only runs after you say *start English coach*, and stops at *end session*.
 
 ---
 
@@ -59,7 +65,8 @@ At every `end session`, the coach gives you **`learner_memory.md`** and **`sessi
 english-communication-coach/
 ├── README.md                     ← you are here
 ├── skill/
-│   ├── coach_instructions.md     ← paste into ChatGPT Project / Gemini Gem instructions
+│   ├── custom_instructions.md    ← ChatGPT: paste into Custom Instructions + Project instructions (≤1,500 chars)
+│   ├── coach_instructions.md     ← full rules: ChatGPT Project file / Gemini Gem instructions
 │   └── coach_playbook.md         ← upload as a file / knowledge (rubric, templates, examples)
 ├── templates/
 │   ├── learner_memory.md         ← blank memory file

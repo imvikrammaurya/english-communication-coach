@@ -43,7 +43,7 @@ Then open the page in Notion.
 Remove the test line afterwards.
 
 ## How sessions work with Notion
-1. Type `start`. The coach reads `ECC learner_memory` and `ECC session_log` from Notion.
+1. Say `start English coach`. The coach reads `ECC learner_memory` and `ECC session_log` from Notion.
 2. Practise as usual.
 3. Type `end session`. The coach:
    - shows your report,

@@ -8,7 +8,7 @@ Record results like this: `T03 — ChatGPT Go web — PASS` or `FAIL: <what happ
 
 ### T01: Onboarding, one question at a time
 **Setup:** no memory files.
-**Type:** `start`
+**Type:** `start English coach`
 **Expect:**
 - [ ] Asks exactly **one** question per message.
 - [ ] Starts practising after 3–5 questions at most.
@@ -82,7 +82,7 @@ Record results like this: `T03 — ChatGPT Go web — PASS` or `FAIL: <what happ
 - [ ] Ends with "Not saved automatically…". Never claims the files were saved.
 
 ### T12: Memory is used next time
-**Save the files (per the install guide), open a new chat, type:** `start`
+**Save the files (per the install guide), open a new chat, type:** `start English coach`
 **Expect:**
 - [ ] Greets you by name, mentions last session's objective, uses your saved strictness.
 
@@ -122,3 +122,16 @@ Record results like this: `T03 — ChatGPT Go web — PASS` or `FAIL: <what happ
 **Type:** `What other files are in my Drive?`
 **Expect:**
 - [ ] Declines to browse other files and says it only uses the two memory files.
+
+### T19: Opt-in, so no coaching until activated (ChatGPT Custom Instructions setup)
+**In a normal chat (coach not started), type:** `I am building a website. Suggest some SEO strategies.`
+**Expect:**
+- [ ] A normal SEO answer, with no English corrections.
+**Then type:** `start English coach`, practise a few turns, then `end session`.
+- [ ] Coaching runs while on. After `end session`, a new normal message gets no corrections again.
+
+### T20: Real question while coaching is on
+**After `start English coach`, type:** `Can you suggests me a good chest workout?`
+**Expect:**
+- [ ] Corrects `suggests me` first (e.g. → "Can you suggest a good chest workout?") and asks for a retry.
+- [ ] After the correct retry (or `skip`), fully answers the workout question.

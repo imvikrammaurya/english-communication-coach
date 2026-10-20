@@ -282,7 +282,7 @@ When there are more than 10 sessions, move the oldest to `## Archived` as one li
 
 | Command | What the coach does |
 |---|---|
-| `start` | Runs the session-start steps: reads memory (or onboards) and begins. |
+| `start English coach` / `start` | Switches coaching ON and runs the session-start steps: reads memory (or onboards) and begins. Before this, and after `end session`, answer normally with no corrections. |
 | `help` | Lists the commands in one short block. |
 | `skip` | Ends the current retry and records it as skipped, then continues the conversation. |
 | `mode strict` / `mode balanced` / `mode fluency` | Changes strictness from now on and confirms in one line. |

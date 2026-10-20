@@ -3,15 +3,26 @@
 ## The daily loop
 
 ```
-open the coach  →  type "start"  →  talk / write  →  fix mistakes until correct  →  "end session"  →  save the 2 files
+open the coach  →  say "start English coach"  →  talk / write  →  fix mistakes until correct  →  "end session"  →  save the 2 files
 ```
 
-1. **Open the coach:** a new chat in the *English Coach* ChatGPT Project, or the *English Coach* Gem in Gemini.
-2. **Type `start`.** The coach reads your memory, reminds you of last time's goal, and begins.
+1. **Open the coach:** a new chat inside the *English Communication Coach* ChatGPT Project, or the *English Coach* Gem in Gemini.
+2. **Say `start English coach`.** Coaching switches on. The coach reads your memory, reminds you of last time's goal, and begins.
 3. **Practise.** Talk about anything: your job, an interview, a presentation, your weekend. The coach asks one question at a time and keeps the conversation going.
 4. **Fix your mistakes.** When you make an important mistake, the coach stops, shows exactly what was wrong, explains why, and asks you to **say it again**. It keeps going until you get it right. Type `skip` if you want to move on (it's recorded as *skipped*, not *learned*).
-5. **Type `end session`.** You get a report with scores, your top mistakes, priorities and an exercise; **coaching notes** (mini-lessons you can study) for your top weak points; and your two memory files.
+5. **Type `end session`.** You get a report with scores, your top mistakes, priorities and an exercise; **coaching notes** (mini-lessons you can study) for your top weak points; and your two memory files. Coaching then switches **off**.
 6. **Save the two files.** This is the step that gives the coach memory. See below.
+
+## Coaching is on only when you ask
+
+| Situation | What happens |
+|---|---|
+| Normal chat (e.g. "Suggest some SEO strategies.") | ChatGPT answers normally. No English corrections. |
+| You say **`start English coach`** | Coaching turns on for that chat, in text and voice. You don't need to repeat it. |
+| You ask a real question while coaching is on | The coach first corrects your most important mistake and waits for your retry (or `skip`), then fully answers your question. |
+| You say **`end session`** | Report, coaching notes and memory files, then coaching turns off. |
+
+On ChatGPT, start inside the Project. That's where the full rules and your memory files are. Outside the Project, the coach can still switch on, but only with the short rules and without your memory.
 
 ## What gets corrected
 
@@ -39,7 +50,7 @@ In every mode, the mistakes that do get retried are retried **until you get them
 
 | Command | Does |
 |---|---|
-| `start` | Begin (reads your memory) |
+| `start English coach` (or `start`) | Switch coaching on and begin (reads your memory) |
 | `help` | Show commands |
 | `skip` | Move on from the current correction |
 | `mode strict` / `mode balanced` / `mode fluency` | Change strictness |
@@ -87,6 +98,6 @@ Save them using the method you chose during install:
 
 ## Example session start
 
-> **You:** start
+> **You:** start English coach
 >
 > **Coach:** Hi Priya! Practice mode, balanced. Last time we worked on present perfect with *since/for*. Today's goal: use it correctly 5 times while talking about your work. So, how long have you been working at your current company?

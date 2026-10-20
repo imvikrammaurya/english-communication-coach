@@ -44,7 +44,7 @@ Your memory lives in your own Google Drive, and the Gem reads only the two files
 
 ## Step 3: First session
 1. Open the **English Coach** Gem and start a chat.
-2. Type: `start`
+2. Type: `start English coach` (or just `start`)
 3. Answer the setup questions and practise.
 4. Finish with: `end session`
 5. Save the two files (Option A or B above).
