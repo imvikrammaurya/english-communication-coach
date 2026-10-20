@@ -1,0 +1,17 @@
+# Personal learner data — never commit
+my-memory/
+memory/
+private/
+*.private.md
+learner_memory.*.md
+session_log.*.md
+# Real memory files saved at the repo root (templates/ is still tracked)
+/learner_memory.md
+/session_log.md
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
